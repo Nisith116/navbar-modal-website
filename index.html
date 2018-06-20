@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <meta name="viewport" content = "width=device-width initial-scale=1 user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Dancing+Script|Kaushan+Script" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <span class="hide-nav"> <a href="#"> &#8801;</a></span>
+        <ul class="table">
+          <li><a href="index.html" class="nav" id="list-1"><h3>Navbar</h3></a></li>
+          <li><a href="index.html" class="nav" id="list-2">Home</a></li>
+          <li ><a href="index.html" class="nav" id="list-3">Link</a></li>
+          <li class="dropmenu"><a href="#" class="nav" id="list-4">Dropdown&#9660;</a>
+            <div class="dropdown">
+                <a class="dropdown-menu" href="#">Content</a>
+                <a class="dropdown-menu" href="#">Image</a>
+                <a class="dropdown-menu" href="#">Reference</a>
+            </div>
+
+          </li>
+          <li><a href="index.html" class="nav" id="list-5">Disabled</a></li>
+          <li id="list-6"> <form class="" action="index.html" method="post">
+            <input class="input-field" type="text"  name="" placeholder="Search">
+          </form> </li>
+          <li> <a href="index.html"><button class="btn" type="button" name="Search">Search</button></a> </li>
+        </ul>
+
+      </div>
+      <div class="compress-navbar">
+
+      </div>
+    </div>
+    <div class="content">
+      <div class="paragraph-1">
+        <button type="button"  class="compress" name="button"><p><h2>Muhammad Ali</h2></p></button>
+          <div class="paragraph-2">
+            <p> <img class="image-1" src="muhammad-ali-4.jpg" alt=""> </p>
+            <p class="para-1">Muhammad Ali born Cassius Marcellus Clay Jr () January 17, 1942 – June 3, 2016) was an American professional boxer, activist and philanthropist. He is widely regarded as one of the most significant and celebrated sports figures of the 20th century. From early in his career, Ali was known as an inspiring, controversial, and polarizing figure both inside and outside the ring.He was regarded as one of the the greatest boxer of all time.</p>
+          </div>
+      </div>
+      <div class="paragraph-3">
+        <button type="button"  class="compress" name="button"><p><h2>Sachin Tendulkar</h2></p></button>
+          <div class="paragraph-4">
+            <p> <img class="image-1" src="sachin-tendulkar-1.jpg" alt=""> </p>
+            <p class="para-1">Sachin Ramesh Tendulkar born 24 April 1973 is a former Indian international cricketer and a former captain of the Indian national team, regarded as one of the greatest batsmen of all time.[4] He is the highest run scorer of all time in International cricket. Often referred to as the 'God of Cricket' by Indian cricket followers,[5] Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years. He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a ODI, the holder of the record for the most number of runs in both Test and ODI, and the only player to complete more than 30,000 runs in international cricket.</p>
+          </div>
+      </div>
+    </div>
+
+
+    <button id="btn-1">Open Modal</button>
+    <div id="Modal-id" class="modal">
+      <div class="modal-paragraph">
+
+        <p class="para-icons">This page shows two great personalities and sportsman, Muhammad Ali and Sachin Tendulkar who are my icons and they made me believe i can achieve anything if i have belief in myself.<br>These are some of mine best qoutes told by this two legend's</p>
+        <p class="quote">He who is not courageous enough to take risks will accomplish nothing in life.<br><span class="sport-icon">Muhammad Ali</span></p>
+        <p class="quote">Every individual has his own style, his own way of presenting himself on and off the field.<br><span class="sport-icon">Sachin Tendulkar</span></p>
+        <span class="close"> <button class="btn-close" type="button" name="button">Close</button></span>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="app.js">
+    </script>
+    <script type="text/javascript" src="modal.js">
+    </script>
+    <script type="text/javascript" src="nav.js">
+    </script>
+  </body>
+</html>
